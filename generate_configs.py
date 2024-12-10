@@ -6,9 +6,6 @@ import json
 import os
 from jinja2 import Environment, FileSystemLoader
 
-# NSO_HOST = "http://10.10.20.50:8080/restconf/data/tailf-ncs:devices/device"
-# USERNAME = "admin"
-# PASSWORD = "admin"
 OUTPUT_DIR = "configs"
 
 # Load template from a file
