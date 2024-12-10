@@ -1,9 +1,0 @@
-devices device dist-sw01
- address 10.10.20.177
- ssh host-key-verification none
- authgroup labadmin
- device-type cli ned-id isco-nx-cli-5.23
- device-type cli protocol telnet
- ned-settings cisco-nx behaviours show-interface-all enable
- state admin-state unlocked
- !

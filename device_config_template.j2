@@ -1,9 +1,0 @@
-devices device {{ name }}
- address {{ address }}
- ssh host-key-verification none
- authgroup {{ authgroup }}
- device-type cli ned-id {{ ned_id }}
-{% if protocol == 'telnet' %} device-type cli protocol telnet{% endif %}
-{% if ned_settings %} ned-settings cisco-nx behaviours show-interface-all enable{% endif %}
- state admin-state unlocked
- !
