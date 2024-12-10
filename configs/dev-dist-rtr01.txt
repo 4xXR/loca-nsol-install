@@ -1,0 +1,9 @@
+devices device dev-dist-rtr01
+ address 10.10.20.176
+ ssh host-key-verification none
+ authgroup labadmin
+ device-type cli ned-id cisco-ios-cli-6.91
+ device-type cli protocol telnet
+
+ state admin-state unlocked
+ !

@@ -1,0 +1,9 @@
+devices device core-rtr01
+ address 10.10.20.173
+ ssh host-key-verification none
+ authgroup labadmin
+ device-type cli ned-id cisco-iosxr-cli-7.45
+ device-type cli protocol telnet
+
+ state admin-state unlocked
+ !

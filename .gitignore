@@ -1,0 +1,12 @@
+#Virtual Environment
+NSOvenv/
+env/
+*.pyc
+*.pyo
+__pycache__/
+
+#System Configuration Files
+.DS_Store
+Thumbs.db
+
+*.log

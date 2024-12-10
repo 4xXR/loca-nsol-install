@@ -1,0 +1,9 @@
+devices device edge-firewall01
+ address 10.10.20.171
+ ssh host-key-verification none
+ authgroup labadmin
+ device-type cli ned-id cisco-asa-cli-6.18
+ device-type cli protocol telnet
+
+ state admin-state unlocked
+ !
