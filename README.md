@@ -10,7 +10,7 @@ This project automates the generation and deployment of configurations for netwo
 
 ## Prerequisites
 - Python 3.7+
-- Cisco NSO installed on the Devbox (sandbox environment). The "local-install" NSO on the Linux DevBox was used.
+- Cisco NSO installed on the Devbox (sandbox environment). The "local-NSO-install" on the Linux DevBox was used.
 - A project directory structure with:
   - `device_config_template.j2` (Jinja2 template)
   - `devices.json` (Device configuration list)
