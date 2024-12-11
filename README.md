@@ -1,6 +1,6 @@
 # NSO Configuration Automation
 
-This project automates the generation and deployment of configurations for network devices using Cisco NSO (Network Services Orchestrator). The configurations are dynamically created using Jinja2 templates and can be deployed via RESTCONF or CLI.
+This project automates the generation and deployment of configurations for network devices using Cisco NSO (Network Services Orchestrator). The configurations are dynamically created using Jinja2 templates and can be deployed via CLI.
 
 ## Features
 - **Dynamic Configuration Generation**: Uses Jinja2 templates to create configurations for various device types.
