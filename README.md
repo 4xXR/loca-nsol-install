@@ -6,7 +6,6 @@ This project automates the generation and deployment of configurations for netwo
 - **Dynamic Configuration Generation**: Uses Jinja2 templates to create configurations for various device types.
 - **Device-Specific Logic**: Supports additional settings (e.g., `ned-settings`) for specific devices.
 - **CLI Deployment**: Automates the deployment of configurations via the NSO CLI.
-- **RESTCONF Integration**: Optionally sends configurations to NSO using RESTCONF (for supported devices).
 
 ## Prerequisites
 - Python 3.7+
